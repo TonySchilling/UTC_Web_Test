@@ -53,8 +53,14 @@ function App() {
     // var currentBase = null;
     var currentObject = null;
 
+    // const boxGeometry = new THREE.BoxGeometry(24, 24, 24);
+    // const boxMaterial = new THREE.MeshPhongMaterial({ color: 0xff0000 });
+    // const boxMesh = new THREE.Mesh(boxGeometry, boxMaterial);
+    // test.scene.add(boxMesh);
+
 
     const gui = new GUI();
+
 
     // var fs = require('fs');
     // var files = fs.readdirSync('./src/assets/models/base');
